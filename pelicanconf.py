@@ -10,7 +10,7 @@ COPYRIGHT = '&copy; 2009-{0} VerticalCue Design LLC'.format(
     time.strftime('%Y'))
 
 PATH = 'content'
-THEME = 'themes/verticalcue-2014'
+THEME = 'themes/verticalcue-2013'
 
 TIMEZONE = 'America/Chicaco'
 
