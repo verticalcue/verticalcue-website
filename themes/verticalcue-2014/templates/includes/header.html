@@ -1,0 +1,19 @@
+<div class="header-container">
+    <header class="clearfix">
+        <div class="topbar"></div>
+        <a href="http://www.verticalcue.com/" id="sitename"><div class="logo"></div></a>
+        <nav>
+            <ul>
+                <div class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="dropdown">
+                    {% for page in pages %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+        <div class="clearfix spacer"></div>
+        <div class="greybar"></div>
+    </header>
+</div>

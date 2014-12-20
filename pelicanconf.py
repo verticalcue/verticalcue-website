@@ -1,12 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import time
 
 AUTHOR = u'VerticalCue Design'
 SITENAME = u'VerticalCue Design'
-SITEURL = ''
+SITEURL = 'http://www.verticalcue.com'
+COPYRIGHT = '&copy; 2009-{0} VerticalCue Design LLC'.format(
+    time.strftime('%Y'))
 
 PATH = 'content'
+THEME = 'themes/verticalcue-2014'
 
 TIMEZONE = 'America/Chicaco'
 
@@ -18,12 +22,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+DISPLAY_PAGES_ON_MENU = True
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+PAGE_SAVE_AS = '{slug}.html'
+PAGE_URL = '{slug}.html'
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
