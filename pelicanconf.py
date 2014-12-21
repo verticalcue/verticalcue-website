@@ -27,10 +27,6 @@ DISPLAY_PAGES_ON_MENU = True
 PAGE_SAVE_AS = '{slug}.html'
 PAGE_URL = '{slug}.html'
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
