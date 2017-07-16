@@ -5,7 +5,7 @@ import time
 
 AUTHOR = u'VerticalCue Design'
 SITENAME = u'VerticalCue Design'
-SITEURL = 'http://www.verticalcue.com'
+SITEURL = 'https://www.verticalcue.com'
 COPYRIGHT = '&copy; 2009-{0} VerticalCue Design LLC'.format(
     time.strftime('%Y'))
 
